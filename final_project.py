@@ -3,6 +3,7 @@
 #as graphs picturing the data based on release months, tickets sold, and distributors
 
 
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -55,7 +56,11 @@ plt.xlabel('Month')
 plt.ylabel('Movies Released')
 fig.get_legend().remove()
 plt.show()
+<<<<<<< HEAD
 
+=======
+plt.clf()
+>>>>>>> 45e654cd8789d2faa190824332083306a78bb74c
 
 ##Line chart of number of tickets sold each month
 ##print month that has the highest number of tickets sold
@@ -74,10 +79,17 @@ plt.xlabel("Month")
 plt.ylabel("Number of tickets sold")
 plt.title("Tickets sold in different months of 2016")
 plt.show()
+<<<<<<< HEAD
 
 
 
 ##percentage of tickets sold by distributor - pie chart 
+=======
+plt.clf()
+
+
+##percentage of tickets sold by distributor - bar chart 
+>>>>>>> 45e654cd8789d2faa190824332083306a78bb74c
 c = movies_df.groupby(['Distributor']).sum()
 c.reset_index(level=0, inplace=True)
 c['Percentage'] = c['Tickets Sold'].apply(lambda x: (x/num_ticks)*100)
@@ -92,9 +104,14 @@ c.index = np.arange(0, len(c)) #reset index
 plt.pie(c.Percentage, labels = c.Distributor, startangle=45, autopct='%.1f%%')
 plt.title('Percentage of tickets sold by different distributors')
 plt.show()
+<<<<<<< HEAD
 
 
 #Line charts that show the number of movies from drama, horror, action and comedy genres
+=======
+plt.clf()
+##Line charts that show the number of movies from drama, horror, action and comedy genres
+>>>>>>> 45e654cd8789d2faa190824332083306a78bb74c
 d = movies_df.groupby(['Month','Genre']).count() #group by Month, Genre and count total of movies released
 d.reset_index(level = 'Genre', inplace = True) #reset index 
 genre_ls = ['Genre']
@@ -118,8 +135,13 @@ plt.xlabel("Month")
 plt.ylabel("Number of movies")
 plt.title("Number of movies released in different months of 2016")
 plt.legend()
+<<<<<<< HEAD
 
 
 
 
 
+=======
+plt.show()
+ 
+>>>>>>> 45e654cd8789d2faa190824332083306a78bb74c
