@@ -8,3 +8,6 @@ Objectives: analyzing and visualizing some characteristics of the dataset of mov
 At first, we approached it in a very traditional way with the limited knowledge we learned in class by creating a lot of dictionaries and somewhat writing very lengthy code.
 After a year and two more comprehensive programming courses, I finally redid everything. It can still be further improved but I'm much more satisfied with this version than our clumpsy work last year.
 ![alt text](https://github.com/tqn14/netflixmovietracker/blob/master/Figure_2.png)
+![alt text](https://github.com/tqn14/netflixmovietracker/blob/master/Figure_3.png)
+![alt text](https://github.com/tqn14/netflixmovietracker/blob/master/Figure_4.png)
+![alt text](https://github.com/tqn14/netflixmovietracker/blob/master/Figure_5.png)
