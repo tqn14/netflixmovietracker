@@ -1,5 +1,5 @@
 # netflixmovietracker
-Objectives: analyzing and visualizing some characteristics of the dataset of movies released on Netflix in 2016: 
+Objectives: analyzing and visualizing some characteristics of the dataset of 700 movies released on Netflix in 2016: 
 - General information about the dataset (number of movies released, number of different genres, number of distributors..)
 - Bar chart of number of movies released each month
 - Line chart of number of movies released each month by genres (drama movies outnumber any other genres)
