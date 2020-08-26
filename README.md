@@ -10,6 +10,9 @@ Assumptions:
 - If a movie falls into to multiple genres, choose the major genre based on how it is advertised/categorized on Netflix
 
 ![alt text](https://github.com/tqn14/netflixmovietracker/blob/master/Figure_2.png)
+
+It can be seen that 
+
 ![alt text](https://github.com/tqn14/netflixmovietracker/blob/master/Figure_3.png)
 ![alt text](https://github.com/tqn14/netflixmovietracker/blob/master/Figure_4.png)
 ![alt text](https://github.com/tqn14/netflixmovietracker/blob/master/Figure_5.png)
