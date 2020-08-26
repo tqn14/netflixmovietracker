@@ -11,7 +11,7 @@ Assumptions:
 
 ![alt text](https://github.com/tqn14/netflixmovietracker/blob/master/Figure_2.png)
 
-It can be seen that 
+Most people often go to the movies in the summer, based on the number of tickets sold shooting up from May to July. The line then plummets in months preceding peak seasons (such as April and October)
 
 ![alt text](https://github.com/tqn14/netflixmovietracker/blob/master/Figure_3.png)
 ![alt text](https://github.com/tqn14/netflixmovietracker/blob/master/Figure_4.png)
